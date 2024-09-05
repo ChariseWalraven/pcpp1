@@ -1,4 +1,5 @@
 from datetime import  datetime
+
 def log_timestamp(function):
     def inner(*args):
         dt = datetime.now()
